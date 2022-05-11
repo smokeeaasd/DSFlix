@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DSFlix.Animes.Bleach"
+             BackgroundColor="#111">
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="250, 100, *">
+            <WebView Source="https://www.youtube.com/embed/78WIYzX_m98" VerticalOptions="FillAndExpand" Grid.Row="0"/>
+            <Label Text="Bleach" Grid.Row="1" FontSize="40" HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center" TextColor="#fff" FontAttributes="Bold"/>
+            <Label Text="O jovem Ichigo, depois de passar grande parte de sua vida vendo fantasmas, se torna um Shinigami, um ser sobrenatural capaz de controlar a morte. Devido a isso, ele dedica sua vida a proteger os inocentes e ajudar os espíritos torturados até que eles encontrem a paz."
+                   Grid.Row="2" HorizontalTextAlignment="Center"
+                   FontSize="22" TextColor="#fff"/>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

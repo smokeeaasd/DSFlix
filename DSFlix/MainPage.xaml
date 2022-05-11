@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DSFlix.MainPage"
+             BackgroundColor="#282C34">
+
+    <Grid RowDefinitions="100, 100, 100" ColumnDefinitions="*, *">
+
+        <Label Text="DSFlix" Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"
+               HorizontalTextAlignment="Center"
+               FontSize="50"
+               VerticalTextAlignment="Center"
+               FontFamily="Monospace"
+               FontAttributes="Bold"
+               TextColor="#eeeeee"/>
+        <ImageButton x:Name="Evangelion" Clicked="Evangelion_Clicked" Grid.Row="1" Grid.Column="0"
+                BackgroundColor="Transparent"/>
+
+        <ImageButton x:Name="OnePiece" Clicked="OnePiece_Clicked" Grid.Row="1" Grid.Column="1"
+                BackgroundColor="Transparent"/>
+
+        <ImageButton x:Name="RecordsOfRagnarok" Clicked="RecordsOfRagnarok_Clicked" Grid.Row="2" Grid.Column="0"
+                BackgroundColor="Transparent"/>
+
+        <ImageButton x:Name="Bleach" Clicked="Bleach_Clicked" Grid.Row="2" Grid.Column="1"
+                BackgroundColor="Transparent"/>
+    </Grid>
+
+</ContentPage>

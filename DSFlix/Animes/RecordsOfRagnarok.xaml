@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DSFlix.Animes.RecordsOfRagnarok"
+             BackgroundColor="#111">
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="250, 100, *">
+            <WebView Source="https://www.youtube.com/embed/_9HxsIYORyE" VerticalOptions="FillAndExpand" Grid.Row="0"/>
+            <Label Text="Records of Ragnarok" Grid.Row="1" FontSize="40" HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center" TextColor="#fff" FontAttributes="Bold"/>
+            <Label Text="Em Record of Ragnarok, o Conselho de Deuses se reúne a cada 100 anos para decidir o destino da humanidade. Após 7 milhões de anos de História, esses seres mitológicos chegam à conclusão de que os humanos são um caso perdido ​​e que devem ser exterminados."
+                   Grid.Row="2" HorizontalTextAlignment="Center"
+                   FontSize="22" TextColor="#fff"/>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>

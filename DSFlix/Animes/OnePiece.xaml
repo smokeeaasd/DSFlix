@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="DSFlix.Animes.OnePiece"
+             BackgroundColor="#111">
+
+    <ContentPage.Content>
+        <Grid RowDefinitions="250, 100, *">
+            <WebView Source="https://www.youtube.com/embed/1gGt1Mg_zSo" VerticalOptions="FillAndExpand" Grid.Row="0"/>
+            <Label Text="One Piece Z" Grid.Row="1" FontSize="40" HorizontalTextAlignment="Center"
+                   VerticalTextAlignment="Center" TextColor="#fff" FontAttributes="Bold"/>
+            <Label Text="Após uma curta e devastadora batalha contra o almirante Kizaru, &quot;Z&quot; fica gravemente ferido e é encontrado no mar pelo bando dos Chapéus de Palha, porém decide acabar com eles após saber que são piratas. A sede da Marinha finalmente se move para lidar com a conspiração que ameaça abalar os pilares do Novo Mundo."
+                   Grid.Row="2" HorizontalTextAlignment="Center"
+                   FontSize="22" TextColor="#fff"/>
+        </Grid>
+    </ContentPage.Content>
+
+</ContentPage>
